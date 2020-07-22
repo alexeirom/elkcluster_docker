@@ -60,3 +60,7 @@
         url: https://github.com/alexeirom/elkcluster_docker.git 
         dest: /home/yc-user/elk/part-2
 
+    - name: run the service defined in elk docker-compose.yml
+      docker_compose:
+        project_src: /home/yc-user/elk/part2
+
