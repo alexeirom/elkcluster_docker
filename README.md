@@ -1,6 +1,5 @@
 # elkcluster_docker
-Задача 1.
-Dockerfile в директории elk_instance_dockerfile
+1. Dockerfile в директории elk_instance_dockerfile
 Поскольку не было описаны пожелания к конфигурации инстанса elasticsearch то конфиг - пустой 
 
 2. Ансибл-плейбук для развертывания кластера из 3-х инстансев (корректнее будет сказать - контейнеров)
